@@ -1,0 +1,27 @@
+    :root{  /*pseudoelementos*/ /*paleta de colores*/
+        --primario: #fff;
+        --secundario: #fcd;
+        --terciario: #fce;
+        --fuente_principal: 3.8rem;
+
+    }
+    html{
+        font-size: 62.5%;
+
+    }
+
+    body{
+        font-size: 16px; /*1 rem = 10px*/
+    }
+
+    
+    .titulo{
+        text-align: center;
+        font-size: var(--fuente_principal);
+        color: var(--secundario);
+    }
+
+    .titulo span{
+
+        font-size: 2rem;
+    }
